@@ -1,0 +1,7 @@
+/* Day 1: Basic page styling */
+
+/* Applies styles to the whole page body */
+body{
+    background-color: olive; /* Page background colour */
+    color: black;            /* Default text colour */
+}
