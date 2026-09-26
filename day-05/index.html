@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Defines the character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags in HTML</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+
+    <!-- Form container used to collect user input -->
+    <form action="post">
+
+        <div>
+        <!-- Text input for collecting the username -->
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" placeholder="">
+        </div>
+
+        <div>
+        <!-- Radio buttons allow the user to select one gender option -->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        </div>
+
+        <div>
+            <!-- Textarea is used for collecting longer text or comments -->
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+    </form>
+    
+</body>
+</html>
