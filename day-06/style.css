@@ -1,0 +1,30 @@
+/* Portfolio styling - basic version (Week 1) */
+/* Only using background-color and color for now, will improve as I learn more CSS */
+
+body {
+    background-color: #1a1a2e; /* Dark page background */
+    color: #e0e0e0;            /* Light text colour so it's readable on dark bg */
+}
+
+h1 {
+    background-color: maroon; /* Already had this inline, keeping same colour */
+    color: white;
+}
+
+h2 {
+    color: #7d7dff; /* Section headings in light purple */
+}
+
+a {
+    color: #7d7dff; /* Links same purple as headings */
+}
+
+table {
+    background-color: #16213e; /* Slightly different shade for the table */
+    color: #e0e0e0;
+}
+
+form {
+    background-color: #16213e; /* Feedback form background */
+    color: #e0e0e0;
+}
